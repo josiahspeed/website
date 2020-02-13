@@ -374,8 +374,7 @@ p {
 	background-image: linear-gradient(top, #5bc0de, #2f96b4);
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5bc0de', endColorstr='#2f96b4', GradientType=0);
-	border-color: #2f96b4 #2f96b4 #1f6377;
-	border-color: rgba(0,0,0,.1) rgba(0,0,0,.1) rgba(0,0,0,.25);
+	border-color: #FF6D6D;
 	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
@@ -393,7 +392,7 @@ p {
 }
 #download:hover{
 	text-shadow: 0 -1px 0 rgba(0,0,0,.25);
-	background-color: #2F96B4;
+	background-color: #FF6D6D;
 	background-position: 0 -15px;
 	-webkit-transition: background-position .1s linear;
 	-moz-transition: background-position .1s linear;
@@ -403,7 +402,7 @@ p {
 }
 #infoMenu{
 	height: 20px;
-	color: #f2f2f2;
+	color: #FF6D6D;
 	position:fixed;
 	z-index:70;
 	bottom:0;
@@ -470,7 +469,7 @@ p {
 	padding: 0 0 5px 0;
 }
 p.introimg {
-    color: #FFF;
+    color: #FF6D6D;
     font-size: 6em;
     margin: 0;
     line-height: 1em;
