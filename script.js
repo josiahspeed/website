@@ -158,7 +158,7 @@
 
             //design
             controlArrows: true,
-            controlArrowColor: '#fff',
+            controlArrowColor: '#FF6D6D',
             verticalCentered: true,
             sectionsColor : [],
             paddingTop: 0,
@@ -2388,7 +2388,7 @@
             }
 
             //centering it
-            nav.css('margin-left', '-' + (nav.width()/2) + 'px');
+            nav.css('margin-right', '-' + (nav.width()/2) + 'px');
 
             nav.find('li').first().find('a').addClass(ACTIVE);
         }
