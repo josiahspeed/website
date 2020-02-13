@@ -94,12 +94,12 @@ html.fp-enabled,
     left: 15px;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #fff transparent transparent;
+    border-color: transparent #FF6D6D transparent transparent;
 }
 .fp-controlArrow.fp-next {
     right: 15px;
     border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #fff;
+    border-color: transparent transparent transparent #FF6D6D;
 }
 .fp-scrollable {
     overflow: hidden;
@@ -205,7 +205,7 @@ html.fp-enabled,
 #fp-nav ul li .fp-tooltip {
     position: absolute;
     top: -2px;
-    color: #fff;
+    color: #FFF9F3;
     font-size: 14px;
     font-family: arial, helvetica, sans-serif;
     white-space: nowrap;
@@ -316,15 +316,15 @@ p {
 	display:inline-block;
 	margin: 10px;
 	color: #000;
-	background:#fff;
+	background:#FFF9F3;
 	background: rgba(255,255,255, 0.5);
 	-webkit-border-radius: 10px;
             border-radius: 10px;
 }
 #menu li.active{
-	background:#666;
+	background:#FF6D6D;
 	background: rgba(0,0,0, 0.5);
-	color: #fff;
+	color: #FFF9F3;
 }
 #menu li a{
 	text-decoration:none;
@@ -334,7 +334,7 @@ p {
 	color: #000;
 }
 #menu li:hover{
-	background: rgba(255,255,255, 0.8);
+	background: #FFF9F3;
 }
 #menu li a,
 #menu li.active a{
@@ -344,13 +344,20 @@ p {
 #menu li.active a{
 	color: #fff;
 }
+
+#logo{
+    top: 0;
+    left: 0;
+    position:fixed;
+    background: #FFF9F3;
+}
 #menu{
+    background: #FFF9F3;
 	position:fixed;
 	top:0;
-	left:0;
+	right:0;
 	height: 40px;
 	z-index: 70;
-	width: 100%;
 	padding: 0;
 	margin:0;
 }
