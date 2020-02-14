@@ -368,6 +368,9 @@ p {
     height:auto;
     padding-right: 5px;
 }
+#legoMan{
+    width: 300px;
+}
 .twitter-share-button{
 	position: fixed;
 	z-index: 99;
