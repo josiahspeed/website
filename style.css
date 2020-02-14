@@ -363,9 +363,10 @@ p {
 	margin:0;
 }
 #profilePicture{
-    width: 100px;
+    width:300px;
     max-width:50%;
     height:auto;
+    padding-right: 5px;
 }
 .twitter-share-button{
 	position: fixed;
