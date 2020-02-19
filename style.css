@@ -367,6 +367,7 @@ p {
     max-width:50%;
     height:auto;
     padding-right: 5px;
+	font-color: red;
 }
 #legoMan{
     width: 300px;
