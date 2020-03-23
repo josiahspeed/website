@@ -23,15 +23,15 @@ class App extends React.Component {
         { title: 'Contact', path: '/contact' }
       ],
       home: {
-        title: 'Be Relentless',
-        subTitle: 'Projects the make a difference',
+        title: 'BIO',
+        subTitle: 'Projects th make a difference',
         text: 'Checkout my projects below'
       },
       about: {
-        title: 'About Me'
+        title: 'PORTFOLIO'
       },
       contact: {
-        title: 'Let\'s Talk'
+        title: 'CONTACT'
       }
     }
   }
@@ -41,15 +41,15 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
           
-          <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Garrett Love</Navbar.Brand>
+          <Navbar className="border-bottom" expand="lg">
+            <Navbar.Brand>JOSIAH SPEED</Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link className="nav-link" to="/">Home</Link>
-                <Link className="nav-link" to="/about">About</Link>
-                <Link className="nav-link" to="/contact">Contact</Link>
+                <Link className="nav-link" to="/">HOME</Link>
+                <Link className="nav-link" to="/about">PORTFOLIO</Link>
+                <Link className="nav-link" to="/contact">CONTACT</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
