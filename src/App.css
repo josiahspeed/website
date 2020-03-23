@@ -22,6 +22,21 @@
   color: black;
 }
 
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-left: -8px
+}
+
+.portfolio {
+  border-width: 8px;
+  border-color: black;
+}
+
+.profilepicture {
+  
+}
+
 .App-link {
   color: #61dafb;
 }

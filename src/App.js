@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import logo from './logo.svg';
 
 
 class App extends React.Component {
@@ -42,7 +43,8 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
           
           <Navbar className="border-bottom" expand="lg">
-            <Navbar.Brand>JOSIAH SPEED</Navbar.Brand>
+          
+            <img src ={logo} className="logo" alt="Whooops!!!!"></img>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">

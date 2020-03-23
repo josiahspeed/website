@@ -1,6 +1,11 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import Content from '../components/Content';
+import projectOne from '../iconsAndImages/lookupDesignModule.png';
+import projectTwo from '../iconsAndImages/fieldDesignModule.png';
+import projectThree from '../iconsAndImages/BeginPedigreeDesign.png';
+import projectFour from '../iconsAndImages/MeetrDesign.png';
+import errorMessage from '../iconsAndImages/legoMan.png';
 
 function AboutPage(props) {
 
@@ -9,39 +14,13 @@ function AboutPage(props) {
             <Hero title={props.title} />
 
             <Content>
-            <p>Hello, my name is Josiah. I'm a UI/UX designer and software developer.</p>
-
-            <p>Currently looking for an ingaging role as a UI/UX designer.</p>
-
-            <p>Some Stuff Here</p>
-
-            <p>Hello, my name is Josiah. I'm a UI/UX designer and software developer.</p>
-
-            <p>Currently looking for an ingaging role as a UI/UX designer.</p>
-
-            <p>Some Stuff Here</p>
-
-            <p>Hello, my name is Josiah. I'm a UI/UX designer and software developer.</p>
-
-            <p>Currently looking for an ingaging role as a UI/UX designer.</p>
-
-            <p>Some Stuff Here</p>
-
-            <p>Hello, my name is Josiah. I'm a UI/UX designer and software developer.</p>
-
-            <p>Currently looking for an ingaging role as a UI/UX designer.</p>
-
-            <p>Some Stuff Here</p>
-
-            <p>Hello, my name is Josiah. I'm a UI/UX designer and software developer.</p>
-
-            <p>Currently looking for an ingaging role as a UI/UX designer.</p>
-
-            <p>Some Stuff Here</p>
-
-            <p>Hello, my name is Josiah. I'm a UI/UX designer and software developer.</p>
-
-            <p>Currently looking for an ingaging role as a UI/UX designer.</p>
+            <div className="portfolio">
+                <img src={projectOne} alt={errorMessage} ></img>
+                <img src={projectTwo} alt={errorMessage} ></img>
+                <img src={projectThree} alt={errorMessage} ></img>
+                <img src={projectFour} alt={errorMessage} ></img>
+            </div>
+          
 
             </Content>
         </div>

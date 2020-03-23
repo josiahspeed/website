@@ -1,0 +1,11 @@
+
+<svg width="55px" height="56px" viewBox="0 0 55 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-934.000000, -457.000000)">
+            <g id="PortfolioControlArrow" transform="translate(962.000000, 485.000000) scale(-1, 1) translate(-962.000000, -485.000000) translate(935.000000, 458.000000)">
+                <path d="M54,1.65327318e-15 L54,54 L-1.65327318e-15,27 L54,1.65327318e-15 Z M48,9 L12,27 L48,45 L48,9 Z" id="Combined-Shape" stroke="#FF9393" stroke-width="1" fill="#FF9393"></path>
+                <polygon id="Triangle" fill="#FF6565" transform="translate(32.000000, 27.000000) rotate(-90.000000) translate(-32.000000, -27.000000) " points="32 14 45 40 19 40"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
