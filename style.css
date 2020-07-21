@@ -304,6 +304,8 @@ h1{
 p {
     font-size: 3em;
     margin: 1em 0;
+    font-family: lato;
+    text-align: center;
 }
 .intro p{
 	width: 50%;
