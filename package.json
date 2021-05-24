@@ -2,6 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://josiahspeed.github.io/website",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
@@ -24,6 +25,9 @@
     "react-share": "^4.3.1",
     "react-typed": "^1.2.0",
     "web-vitals": "^0.2.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -50,9 +54,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://josiahspeed.github.io/website",
-  "devDependencies": {
-    "gh-pages": "^3.1.0"
   }
 }
